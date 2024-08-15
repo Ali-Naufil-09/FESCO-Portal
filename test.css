@@ -1,0 +1,443 @@
+body{
+margin: 0, auto;
+background-color:gainsboro;
+
+}
+
+.container{
+
+width: 1000px;
+height:auto;
+background-color: whitesmoke;
+margin: auto;
+
+}
+
+.logo{
+
+    float : left;
+    padding: 15px;
+}
+
+
+.searchbar{
+
+width:-8px;
+float: right;
+padding: 55px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.mainmenu{
+background-color: rgb(9, 92, 174);
+}
+.mainmenu> ul{
+
+    margin: 0px;
+    padding : 0px;
+    list-style-type: none;
+}
+.mainmenu> ul> li{
+    display: inline-block;
+}
+
+.mainmenu> ul>li>a{
+color: white;
+text-decoration:none;
+display: block;
+padding : 15px;
+font-family: sans-serif;
+font-size:small;
+
+}
+.mainmenu> ul>li>a:hover{
+background-color: black;
+}
+
+.drop{
+
+list-style-type: none ;
+margin:0px;
+padding:0px;
+position:absolute;
+z-index: 999;
+
+display:none;
+}
+
+.drop>li>a{
+    color: white;
+    text-decoration:none;
+    display: block;
+    padding : 15px;
+    font-family: sans-serif;
+    font-size:small;
+    background-color: black;
+}
+.drop>li>a:hover{
+
+    background-color: orange;
+}
+.mainmenu > ul >li:hover .drop
+{
+
+    display: block;
+}
+
+.banner{
+width: 1000px;
+height: 416.6;
+overflow: hidden ;
+
+}
+.banner   img{
+    width:100%;
+    height: auto;
+}
+
+
+.content{
+width: 700px;
+height:auto;
+padding:25px;
+background-color:white ;
+float:left;
+
+
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.content p{
+    font-size: small;
+    font-family: sans-serif;
+
+}
+
+
+.sidebar {
+   
+float: left;
+padding: 25px;
+
+}
+
+.sidebar h3{
+    font-family: sans-serif;
+color: black;
+
+
+}
+
+.sidebar  ul{
+margin: 0px;
+padding: 0px;
+list-style-type:none;
+
+}
+.sidebar  ul  li  a{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+    margin-bottom : 5px;
+    color: black;
+    text-decoration: none;
+}
+.main-footer{
+background-color: black;
+color: white;
+width: 950px;
+padding:25px;
+height: auto;
+
+}
+.footer-box{
+width: 237.5px;
+height: auto;
+float:left;
+font-family: sans-serif;
+}
+
+.footer-box > ul{
+    margin: 0px;
+    padding : 0px;
+    list-style-type: none; 
+}
+.footer-box > ul > li >a{
+display: block;
+font-size: small;
+margin-bottom : 5px;
+color: white;
+text-decoration: none;
+}
+
+.footer-box address a{
+
+    color: teal;
+    font-size: small;
+}
+.copy{
+
+    padding: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(9, 92, 174);
+}
+.copy p{
+    margin: 0px;
+}
+
+
+/*about us page*/
+
+.content-about-us{
+  
+    font-family: sans-serif;
+   padding: 36px;
+text-align: left;
+
+}
+.content-about-us h1{
+  
+    font-size: x-large;
+
+}
+.content-about-us  ol{
+    font-family:sans-serif;
+    color: black;
+}
+.content-about-us  ol  li  a{
+    display: block;
+   color:rgb(22, 27, 32);
+    text-decoration: none;
+    font-family:sans-serif
+    }  
+
+    .content-about-us  ol  li  a:hover{
+        color: blue;}
+
+        
+        /*e-services bill page*/
+        
+.content-of-e-services{
+  
+    font-family: sans-serif;
+   padding: 36px;
+text-align: left;
+
+}
+
+.content-of-e-services h1{
+
+    font-size:x-large;
+}
+
+.content-of-e-services ol{
+    font-family:sans-serif;
+    color: black;
+}
+.content-of-e-services  ol  li  a{
+    display: block;
+   color:rgb(22, 27, 32);
+    text-decoration: none;
+    font-family:sans-serif
+    }  
+
+    .content-of-e-services ol  li  a:hover{
+        color: blue;}
+
+
+
+
+
+ /*e-services electricity new connwction  page*/
+        
+
+              
+.content-newc{
+  
+    font-family: sans-serif;
+   padding: 36px;
+text-align: left;
+
+}
+
+.content-newc h1{
+
+    font-size:x-large;
+}
+
+.content-newc  ol{
+    font-family:sans-serif;
+    color: black;
+}
+.content-newc  ol  li  a{
+    display: block;
+   color:rgb(22, 27, 32);
+    text-decoration: none;
+    font-family:sans-serif
+    }  
+
+    .content-newc ol  li  a:hover{
+        color: blue;}
+
+
+        
+
+ /*e-services other services   page*/
+        
+
+              
+.content-oth{
+  
+    font-family: sans-serif;
+   padding: 36px;
+text-align: left;
+
+}
+
+.content-oth h1{
+
+    font-size:x-large;
+}
+
+.content-oth  ol{
+    font-family:sans-serif;
+    color: black;
+}
+.content-oth  ol  li  a{
+    display: block;
+   color:rgb(22, 27, 32);
+    text-decoration: none;
+    font-family:sans-serif
+    }  
+
+    .content-oth ol  li  a:hover{
+        color: blue;}
+
+
+
+        
+
+ /*public notice  page*/
+        
+
+              
+ .content-pn{
+  
+    font-family: sans-serif;
+   padding: 36px;
+text-align: left;
+
+}
+
+.content-pn h1{
+
+    font-size:x-large;
+}
+
+.content-pn  ol{
+    font-family:sans-serif;
+    color: black;
+}
+.content-pn  ol  li  a{
+    display: block;
+   color:rgb(22, 27, 32);
+    text-decoration: none;
+    font-family:sans-serif
+    }  
+
+    .content-pn ol  li  a:hover{
+        color: blue;}
+
+
+
+
+
+         /*news & update  page*/
+        
+
+              
+ .content-nu{
+  
+    font-family: sans-serif;
+   padding: 36px;
+text-align: left;
+
+}
+
+.content-nu h1{
+
+    font-size:x-large;
+}
+
+.content-nu  ol{
+    font-family:sans-serif;
+    color: black;
+}
+.content-nu  ol  li  a{
+    display: block;
+   color:rgb(22, 27, 32);
+    text-decoration: none;
+    font-family:sans-serif
+    }  
+
+    .content-nu ol  li  a:hover{
+        color: blue;}
+
+
+            
+        .content-cu{
+  
+            font-family: sans-serif;
+           padding: 36px;
+        text-align: left;
+        
+        }
+        
+        .content-cu h1{
+        
+            font-size:x-large;
+        }
+        
+
+
+            
+        .content-car{
+  
+            font-family: sans-serif;
+           padding: 36px;
+        text-align: left;
+        
+        }
+        
+        .content-car h1{
+        
+            font-size:x-large;
+
+
+        }
+        
+
+       .content-car  p  a{
+
+           text-decoration: none;
+           font-family:sans-serif;
+           color: cornflowerblue;
+           
+           }  
+        
+        
+    .content-car    p  a:hover{
+        color: red;
+        
+    
+    }
+ 
+  
